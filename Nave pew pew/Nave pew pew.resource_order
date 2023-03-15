@@ -1,0 +1,16 @@
+{
+  "FolderOrderSettings": [
+    {"name":"Cenas","order":10,"path":"folders/Cenas.yy",},
+    {"name":"Curvas da animação","order":12,"path":"folders/Curvas da animação.yy",},
+    {"name":"Extensões","order":14,"path":"folders/Extensões.yy",},
+    {"name":"Fontes","order":7,"path":"folders/Fontes.yy",},
+    {"name":"Objetos","order":9,"path":"folders/Objetos.yy",},
+    {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
+    {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
+    {"name":"Sons","order":3,"path":"folders/Sons.yy",},
+    {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"spr_nave_animada","order":1,"path":"sprites/spr_nave_animada/spr_nave_animada.yy",},
+  ],
+}
