@@ -11,6 +11,13 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"parente_asteroide","order":4,"path":"objects/parente_asteroide/parente_asteroide.yy",},
+    {"name":"spr_asteroide_grande","order":3,"path":"sprites/spr_asteroide_grande/spr_asteroide_grande.yy",},
+    {"name":"obj_asteroide_grande","order":2,"path":"objects/obj_asteroide_grande/obj_asteroide_grande.yy",},
+    {"name":"obj_projetil","order":1,"path":"objects/obj_projetil/obj_projetil.yy",},
+    {"name":"spr_asteroide_medio","order":4,"path":"sprites/spr_asteroide_medio/spr_asteroide_medio.yy",},
+    {"name":"spr_projetil","order":2,"path":"sprites/spr_projetil/spr_projetil.yy",},
+    {"name":"obj_asteroide_medio","order":3,"path":"objects/obj_asteroide_medio/obj_asteroide_medio.yy",},
     {"name":"spr_nave_animada","order":1,"path":"sprites/spr_nave_animada/spr_nave_animada.yy",},
   ],
 }

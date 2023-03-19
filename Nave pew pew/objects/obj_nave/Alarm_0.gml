@@ -1,0 +1,2 @@
+/// @description Se tomado danos
+

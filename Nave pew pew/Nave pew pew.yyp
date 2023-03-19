@@ -28,9 +28,16 @@
     "IDEVersion": "2023.2.0.71",
   },
   "resources": [
+    {"id":{"name":"parente_asteroide","path":"objects/parente_asteroide/parente_asteroide.yy",},},
+    {"id":{"name":"spr_asteroide_grande","path":"sprites/spr_asteroide_grande/spr_asteroide_grande.yy",},},
     {"id":{"name":"spr_nave_parada","path":"sprites/spr_nave_parada/spr_nave_parada.yy",},},
     {"id":{"name":"obj_nave","path":"objects/obj_nave/obj_nave.yy",},},
+    {"id":{"name":"obj_asteroide_grande","path":"objects/obj_asteroide_grande/obj_asteroide_grande.yy",},},
+    {"id":{"name":"obj_projetil","path":"objects/obj_projetil/obj_projetil.yy",},},
+    {"id":{"name":"spr_asteroide_medio","path":"sprites/spr_asteroide_medio/spr_asteroide_medio.yy",},},
     {"id":{"name":"Sala","path":"rooms/Sala/Sala.yy",},},
+    {"id":{"name":"spr_projetil","path":"sprites/spr_projetil/spr_projetil.yy",},},
+    {"id":{"name":"obj_asteroide_medio","path":"objects/obj_asteroide_medio/obj_asteroide_medio.yy",},},
     {"id":{"name":"spr_nave_animada","path":"sprites/spr_nave_animada/spr_nave_animada.yy",},},
   ],
   "RoomOrderNodes": [
