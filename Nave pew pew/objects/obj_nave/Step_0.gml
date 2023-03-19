@@ -47,6 +47,8 @@ if alarm[0] > 0{
 	}
 	
 	image_alpha	+= alfa_add;
+} else {
+	image_alpha = 1;
 }
 //Se sair do mapa ele volta
 move_wrap(true, true, 0);
