@@ -11,3 +11,9 @@ move_dir = 1;
 vida = 5;
 
 alfa_add = 0;
+
+escudo = false;
+
+dano_nave = 1;
+
+last_attack_time = 0;
