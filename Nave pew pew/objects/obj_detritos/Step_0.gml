@@ -1,9 +1,8 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-audio_play_sound(snd_melhoria, 1, false);
-escudo = true;
-alarm[1] = 300;
+image_angle += rotacao;
 
-with(other){
+image_alpha -= 0.02;
+if image_alpha <= 0 {
 	instance_destroy();
 }

@@ -32,11 +32,10 @@ image_angle = dir;
 
 
 if keyboard_check(vk_space) || mouse_check_button(mb_left){
-	// Definir a velocidade de ataque em ataques por segundo
 
 	// Verificar se o personagem pode atacar novamente
-	if (current_time - last_attack_time >= 120 / attack_speed) {
-	   
+	if (current_time - last_attack_time >= 240 / attack_speed) {
+		audio_play_sound(snd_projetil, 1, false);
 		var  inst = instance_create_layer(x, y, "Instances", obj_projetil);
 		inst.speed = 8;
 		inst.direction = image_angle;
