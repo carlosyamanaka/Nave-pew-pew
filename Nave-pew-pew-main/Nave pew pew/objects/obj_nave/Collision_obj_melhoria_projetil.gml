@@ -1,4 +1,4 @@
-/// @description Inserir descrição aqui
+/// @description Som melhoria projetil
 audio_play_sound(snd_melhoria, 1, false);
 alarm[2] = 300;
 

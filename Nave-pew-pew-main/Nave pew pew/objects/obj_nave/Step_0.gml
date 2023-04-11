@@ -12,8 +12,10 @@ vsp = (down - up);
 move_dir = point_direction(x, y, x + hsp, y + vsp);
 if (hsp != 0 or vsp != 0) {
 	spd = 2;
+	sprite_index = spr_nave_animada;
 } else {
 	spd = 0;
+	sprite_index = spr_nave_parada;
 }
 
 	hsp = lengthdir_x(spd, move_dir);

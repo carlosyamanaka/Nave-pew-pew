@@ -5,7 +5,7 @@ down = 1;
 
 hsp = 0;
 vsp = 0;
-spd = 3.5;
+spd = 5;
 move_dir = 1;
 
 vida = 5;

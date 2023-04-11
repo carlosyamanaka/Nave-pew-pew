@@ -1,4 +1,4 @@
-/// @description Inserir descrição aqui
+/// @description desenhar escudo
 draw_self();
 
 if escudo == true {

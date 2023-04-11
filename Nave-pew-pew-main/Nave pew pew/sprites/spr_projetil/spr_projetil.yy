@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "spr_projetil",
   "bbox_bottom": 35,
-  "bbox_left": 24,
+  "bbox_left": 22,
   "bbox_right": 36,
   "bbox_top": 31,
   "bboxMode": 0,
