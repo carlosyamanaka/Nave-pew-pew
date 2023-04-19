@@ -13,8 +13,8 @@
     "path": "folders/Objetos.yy",
   },
   "parentObjectId": {
-    "name": "parente_asteroide",
-    "path": "objects/parente_asteroide/parente_asteroide.yy",
+    "name": "parente_inimigo_com_vida",
+    "path": "objects/parente_inimigo_com_vida/parente_inimigo_com_vida.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

@@ -4,7 +4,7 @@
   "name": "obj_projetil",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"parente_asteroide","path":"objects/parente_asteroide/parente_asteroide.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"parente_inimigo_com_vida","path":"objects/parente_inimigo_com_vida/parente_inimigo_com_vida.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_projetil",
-    "path": "sprites/spr_projetil/spr_projetil.yy",
+    "name": "spr_projetil_2",
+    "path": "sprites/spr_projetil_2/spr_projetil_2.yy",
   },
   "spriteMaskId": null,
   "visible": true,

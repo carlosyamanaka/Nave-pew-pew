@@ -4,18 +4,47 @@ up = keyboard_check(vk_up) || keyboard_check(ord("W"));
 left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 down = keyboard_check(vk_down) || keyboard_check(ord("S"));
 
-attack_speed = 1;
-
 hsp = (right - left);
 vsp = (down - up);
 
 move_dir = point_direction(x, y, x + hsp, y + vsp);
 if (hsp != 0 or vsp != 0) {
 	spd = 2;
-	sprite_index = spr_nave_animada;
 } else {
 	spd = 0;
-	sprite_index = spr_nave_parada;
+}
+
+if (image_alpha > 0) {
+    player_position_x = obj_nave.x; //setting the player's new x position
+    player_position_y = obj_nave.y; //setting the player's new y position
+}
+	
+	
+//Bloco de controle para ver qual sprite será executado
+if (verificacao_escudo_ativo == false){
+	if(escudo == true){
+		if (hsp != 0 or vsp != 0) {
+			spd = 2;
+			sprite_index = spr_nave_escudo_andando;
+		} else {
+			spd = 0;
+			sprite_index = spr_nave_escudo_parada;
+		}
+	} else if(verificacao_projetil_ativo == true){
+		if (hsp != 0 or vsp != 0) {
+			spd = 2;
+			sprite_index = spr_nave_projetil_andando;
+		} else {
+			spd = 0;
+			sprite_index = spr_nave_projetil_parada;
+		}
+	} else {
+		if(hsp !=0 or vsp != 0){
+		sprite_index = spr_nave_andando;
+		} else{
+			sprite_index = spr_nave_parada;
+		}
+	}
 }
 
 	hsp = lengthdir_x(spd, move_dir);
@@ -50,17 +79,12 @@ if keyboard_check(vk_space) || mouse_check_button(mb_left){
 
 }
 
-if (vida <= 0) {
-	game_restart();
-}
-
 if alarm[0] > 0{
 	if image_alpha <= 0 {
 		alfa_add = 0.05;
 	} else if image_alpha >= 1 {
 		alfa_add = -0.05;
 	}
-	
 	image_alpha	+= alfa_add;
 } else {
 	image_alpha = 1;
