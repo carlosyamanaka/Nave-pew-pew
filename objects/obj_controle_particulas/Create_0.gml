@@ -1,4 +1,6 @@
 /// @description Inserir descrição aqui
+
+alarm[0] = 120;
 var _red1 = make_colour_rgb(237, 0, 0);
 var _red2 = make_colour_rgb(31, 2, 2);
 var _red3 = make_colour_rgb(69, 4, 4);

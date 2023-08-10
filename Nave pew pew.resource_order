@@ -40,6 +40,7 @@
     {"name":"spr_red_background_frente","order":24,"path":"sprites/spr_red_background_frente/spr_red_background_frente.yy",},
     {"name":"spr_red_almas","order":21,"path":"sprites/spr_red_almas/spr_red_almas.yy",},
     {"name":"snd_melhoria","order":3,"path":"sounds/snd_melhoria/snd_melhoria.yy",},
+    {"name":"obj_almas_background","order":17,"path":"objects/obj_almas_background/obj_almas_background.yy",},
     {"name":"spr_hud_powerup","order":19,"path":"sprites/spr_hud_powerup/spr_hud_powerup.yy",},
     {"name":"spr_asteroide_medio","order":3,"path":"sprites/spr_asteroide_medio/spr_asteroide_medio.yy",},
     {"name":"obj_par_npc","order":14,"path":"objects/obj_par_npc/obj_par_npc.yy",},

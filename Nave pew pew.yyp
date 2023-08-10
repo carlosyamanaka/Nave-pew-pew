@@ -62,6 +62,7 @@
     {"id":{"name":"spr_red_background_frente","path":"sprites/spr_red_background_frente/spr_red_background_frente.yy",},},
     {"id":{"name":"spr_red_almas","path":"sprites/spr_red_almas/spr_red_almas.yy",},},
     {"id":{"name":"snd_melhoria","path":"sounds/snd_melhoria/snd_melhoria.yy",},},
+    {"id":{"name":"obj_almas_background","path":"objects/obj_almas_background/obj_almas_background.yy",},},
     {"id":{"name":"spr_hud_powerup","path":"sprites/spr_hud_powerup/spr_hud_powerup.yy",},},
     {"id":{"name":"spr_asteroide_medio","path":"sprites/spr_asteroide_medio/spr_asteroide_medio.yy",},},
     {"id":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},},
